@@ -1,25 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class='background'>
+      <a href='https://app.nonameprotocol.com' class='app-bttn'>App</a>
+      <h1>"No Name" Protocol</h1>
+      <p>MVP, making it easier to interact with dApps</p>
+      <a href='https://twitter.com/NoNameProtocol' target='_blank'>Twitter</a>
     </div>
   );
 }
-
 export default App;
